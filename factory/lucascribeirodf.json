@@ -1,0 +1,9 @@
+{
+	"name": "lucascribeirodf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c4b6203d-1344-471d-a964-90dd2c60cfc2",
+		"tenantId": "29b675e3-c300-47c6-9852-38580b2f0490"
+	}
+}
