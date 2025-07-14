@@ -11,7 +11,7 @@
 			"location": {
 				"type": "AzureBlobFSLocation",
 				"fileName": {
-					"value": "@concat('coletor_', utcNow(), '.csv')\n",
+					"value": "@concat('teste', utcNow(), '.csv')",
 					"type": "Expression"
 				},
 				"fileSystem": "adfcontsink"
