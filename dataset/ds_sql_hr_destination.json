@@ -1,0 +1,177 @@
+{
+	"name": "ds_sql_hr_destination",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SqlServer1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "Employee_Name",
+				"type": "varchar"
+			},
+			{
+				"name": "EmpID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "MarriedID",
+				"type": "tinyint",
+				"precision": 3
+			},
+			{
+				"name": "MaritalStatusID",
+				"type": "tinyint",
+				"precision": 3
+			},
+			{
+				"name": "GenderID",
+				"type": "tinyint",
+				"precision": 3
+			},
+			{
+				"name": "EmpStatusID",
+				"type": "tinyint",
+				"precision": 3
+			},
+			{
+				"name": "DeptID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "PerfScoreID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "FromDiversityJobFairID",
+				"type": "bit"
+			},
+			{
+				"name": "Salary",
+				"type": "decimal",
+				"precision": 10,
+				"scale": 2
+			},
+			{
+				"name": "Termd",
+				"type": "bit"
+			},
+			{
+				"name": "PositionID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Position",
+				"type": "varchar"
+			},
+			{
+				"name": "State",
+				"type": "char"
+			},
+			{
+				"name": "Zip",
+				"type": "varchar"
+			},
+			{
+				"name": "DOB",
+				"type": "date"
+			},
+			{
+				"name": "Sex",
+				"type": "char"
+			},
+			{
+				"name": "MaritalDesc",
+				"type": "varchar"
+			},
+			{
+				"name": "CitizenDesc",
+				"type": "varchar"
+			},
+			{
+				"name": "HispanicLatino",
+				"type": "varchar"
+			},
+			{
+				"name": "RaceDesc",
+				"type": "varchar"
+			},
+			{
+				"name": "DateofHire",
+				"type": "date"
+			},
+			{
+				"name": "DateofTermination",
+				"type": "date"
+			},
+			{
+				"name": "TermReason",
+				"type": "varchar"
+			},
+			{
+				"name": "EmploymentStatus",
+				"type": "varchar"
+			},
+			{
+				"name": "Department",
+				"type": "varchar"
+			},
+			{
+				"name": "ManagerName",
+				"type": "varchar"
+			},
+			{
+				"name": "ManagerID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "RecruitmentSource",
+				"type": "varchar"
+			},
+			{
+				"name": "PerformanceScore",
+				"type": "varchar"
+			},
+			{
+				"name": "EngagementSurvey",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "EmpSatisfaction",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "SpecialProjectsCount",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "LastPerformanceReview_Date",
+				"type": "date"
+			},
+			{
+				"name": "DaysLateLast30",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Absences",
+				"type": "int",
+				"precision": 10
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Employees"
+		}
+	}
+}
