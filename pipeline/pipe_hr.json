@@ -134,18 +134,6 @@
 							},
 							{
 								"source": {
-									"name": "FromDiversityJobFairID",
-									"type": "String",
-									"physicalType": "String"
-								},
-								"sink": {
-									"name": "FromDiversityJobFairID",
-									"type": "Boolean",
-									"physicalType": "bit"
-								}
-							},
-							{
-								"source": {
 									"name": "Salary",
 									"type": "String",
 									"physicalType": "String"
@@ -156,18 +144,6 @@
 									"physicalType": "decimal",
 									"scale": 2,
 									"precision": 10
-								}
-							},
-							{
-								"source": {
-									"name": "Termd",
-									"type": "String",
-									"physicalType": "String"
-								},
-								"sink": {
-									"name": "Termd",
-									"type": "Boolean",
-									"physicalType": "bit"
 								}
 							},
 							{
@@ -220,18 +196,6 @@
 							},
 							{
 								"source": {
-									"name": "DOB",
-									"type": "String",
-									"physicalType": "String"
-								},
-								"sink": {
-									"name": "DOB",
-									"type": "DateTime",
-									"physicalType": "date"
-								}
-							},
-							{
-								"source": {
 									"name": "Sex",
 									"type": "String",
 									"physicalType": "String"
@@ -288,30 +252,6 @@
 									"name": "RaceDesc",
 									"type": "String",
 									"physicalType": "varchar"
-								}
-							},
-							{
-								"source": {
-									"name": "DateofHire",
-									"type": "String",
-									"physicalType": "String"
-								},
-								"sink": {
-									"name": "DateofHire",
-									"type": "DateTime",
-									"physicalType": "date"
-								}
-							},
-							{
-								"source": {
-									"name": "DateofTermination",
-									"type": "String",
-									"physicalType": "String"
-								},
-								"sink": {
-									"name": "DateofTermination",
-									"type": "DateTime",
-									"physicalType": "date"
 								}
 							},
 							{
@@ -432,18 +372,6 @@
 									"name": "SpecialProjectsCount",
 									"type": "Int32",
 									"physicalType": "int"
-								}
-							},
-							{
-								"source": {
-									"name": "LastPerformanceReview_Date",
-									"type": "String",
-									"physicalType": "String"
-								},
-								"sink": {
-									"name": "LastPerformanceReview_Date",
-									"type": "DateTime",
-									"physicalType": "date"
 								}
 							},
 							{
