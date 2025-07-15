@@ -9,9 +9,9 @@
 			"database": "MyDatabase",
 			"encrypt": "optional",
 			"trustServerCertificate": false,
-			"authenticationType": "Windows",
+			"authenticationType": "SQL",
 			"userName": "lucasadb2",
-			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI3ODdjZDQxMC1hMjViLTRjNGItOTFkZS0xYzNkM2Q2OTA4NjUiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI5OTg4Y2E3Zi0yM2FhLTQ4NTEtODUyYS02ODBiNzc0ZDMwNWQiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
 		},
 		"connectVia": {
 			"referenceName": "IR1",
